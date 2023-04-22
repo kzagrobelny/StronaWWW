@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, maximum-scale=3.0, minimum-scale=1.0, initial-scale=1" />
+    <link rel="stylesheet" href="loginpagestyles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="navigationbar.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_links">
+            <ul>
+                <li><a href="home.html">Strona główna</a></li>
+                <li><a href="ourtripsdetails.html">Nasze wyjazdy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="login-page-container">
+        <div class="login-page">
+            <div class="login-page-header">
+                <h1>Zaloguj się</h1>
+            </div>
+            <form class="login-page-form">
+                <div class="form-items">
+                    <input type="text" placeholder="Wprowadź login" required>
+                </div>
+                <div class="form-items">
+                    <input type="password" placeholder="Wprowadź hasło" required>
+                </div>
+                <div class="form-items-rest">
+                    <div class="checkbox">
+                        <input type="checkbox" id="rememberMeCheckbox">
+                        <label for="rememberMeCheckbox">Zapamiętaj mnie</label>
+                    </div>
+                    <a href="#">Zapomniałem/(am) hasła!</a>
+                </div>
+                <button type="submit">Zaloguj</button>
+            </form>
+            <div class="login-page-footer">
+                Nie mam konta. <a href="#">Stwórz nowe konto!</a>
+            </div>
+        </div>
+        <div class="sign-in-other-way">
+            <div>Zaloguj przy użyciu innych platform</div>
+            <div class="social-buttons">
+                <a href="#" class="google">
+                    <i class="bi bi-google"></i>
+                </a>
+                <a href="#" class="facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.about-us img {
+    display: none;
+}
+
+.our-trips img {
+    display: none;
+}
+
+.our-trips p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.about-us p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

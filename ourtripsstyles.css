@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    height: auto;
+    width: 50%;
+}
+
+.img-and-header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-and-header h1 {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details ul li {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.details {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.details li {
+    font-weight: bold;
+}
+
+.details img {
+    height: auto;
+}
+
+.details button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 280px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.details button:hover {
+    color: black;
+    background-color: white;
+    transition-duration: .3s;
+}
+
+.details button:active {
+    color: white;
+    background-color: black;
+    transition-duration: .3s;
+}
+
+#countdown-clock {
+    margin-top: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}

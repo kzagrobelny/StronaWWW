@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.login-page-container {
+    margin-top: 100px;
+}
+
+
+.login-page {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 4rem;
+    border-radius: 20px;
+    color: white;
+}
+
+.login-page-header,
+.login-page-footer {
+    text-align: center;
+    
+    
+}
+
+.login-page-header {
+    padding-bottom: 1rem;
+}
+
+.login-page-footer {
+    margin-top: 50px;
+}
+
+.login-page-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-page a {
+    text-decoration: none;
+    color: #1d68eb
+}
+
+.login-page a:hover {
+    text-decoration: underline;
+}
+
+.login-page-footer .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.login-page-form .form-items-rest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.login-page input[type="text"], 
+.login-page input[type="password"] {
+    border-radius: 30px;
+    padding: 1rem 3rem; 
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    
+}
+
+.login-page input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px blue;
+    background: white;
+    transition-duration: .5s;
+}
+
+.login-page input[type="checkbox"] {
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+
+.login-page-form label {
+    cursor: pointer;
+}
+
+.login-page-form button {
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+
+.login-page-form button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: .5s;
+}
+
+.login-page-form button:focus {
+background-color: black;
+color: white;
+transition-duration: .1s;
+}
+
+::placeholder {
+    color: black;
+}
+
+.sign-in-other-way {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.social-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.social-buttons a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition-duration: .3s;
+}
+
+

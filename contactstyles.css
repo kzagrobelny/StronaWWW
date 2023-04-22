@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contact-img img {
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+}
+
+.contact-form {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.form-items-first input[type="text"] {
+    padding: 1.5rem 4rem;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+
+.form-items-second input[type="email"],
+.form-items-second input[type="tel"] {
+    padding: 1.5rem 4rem;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+
+.form-items-message input[type="text"] {
+    padding: 5rem 13.7rem;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+
+

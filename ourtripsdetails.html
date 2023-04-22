@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, maximum-scale=3.0, minimum-scale=1.0, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="navigationbar.css">
+    <link rel="stylesheet" href="ourtripsstyles.css">
+    <title>Nasze wyjazdy</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_links">
+            <ul>
+                <li><a href="home.html">Strona główna</a></li>
+                <li><a href="loginpage.html">Zaloguj się</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="our-trips-container">
+        <div id="countdown-clock">
+            <script src="countdownclock.js"></script>
+        </div>
+        <div class="img-and-header">
+            <h1>Włochy, Dolomity - Val Gardena</h1>
+            <img src="nasz_wyjazd.jpg" alt="Dolomity">
+        </div>
+        <div class="details">
+            <img src="apartment.png" alt="Apartament">
+            <ul>
+                <li>Data: </li>
+                <p>12.02.2023 - 19.02.2023</p>
+                <li>Zakwaterowanie:</li>
+                <p>Pensjonat bezpośrednio na stoku obok wyciągu narciarskiego</p>
+                <li>Wyżywienie:</li>
+                <p>Śniadania, obiady, kolacje</p>
+                <li>Cena:</li>
+                <p>4700 PLN</p>
+            </ul>
+            <button id="book-a-trip" onclick="bookATrip()">Zarezerwuj wycieczkę</a>
+        </div>
+        
+    </div>
+
+</body>
+</html>
